@@ -1,0 +1,8 @@
+C:\Users\kurde\Desktop\C#dotNET Training\RandomExcelValues\Random Excel File\Random Excel File\bin\Debug\Random Excel File.exe.config
+C:\Users\kurde\Desktop\C#dotNET Training\RandomExcelValues\Random Excel File\Random Excel File\bin\Debug\Random Excel File.exe
+C:\Users\kurde\Desktop\C#dotNET Training\RandomExcelValues\Random Excel File\Random Excel File\bin\Debug\Random Excel File.pdb
+C:\Users\kurde\Desktop\C#dotNET Training\RandomExcelValues\Random Excel File\Random Excel File\obj\Debug\Random Excel File.csproj.AssemblyReference.cache
+C:\Users\kurde\Desktop\C#dotNET Training\RandomExcelValues\Random Excel File\Random Excel File\obj\Debug\Random Excel File.csproj.ResolveComReference.cache
+C:\Users\kurde\Desktop\C#dotNET Training\RandomExcelValues\Random Excel File\Random Excel File\obj\Debug\Random Excel File.csproj.CoreCompileInputs.cache
+C:\Users\kurde\Desktop\C#dotNET Training\RandomExcelValues\Random Excel File\Random Excel File\obj\Debug\Random Excel File.exe
+C:\Users\kurde\Desktop\C#dotNET Training\RandomExcelValues\Random Excel File\Random Excel File\obj\Debug\Random Excel File.pdb
