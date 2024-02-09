@@ -21,8 +21,10 @@ namespace Random_Excel_File
             Workbook workbook;
             Worksheet worksheet;
 
-            workbook = excel.Workbooks.Open(complete);
-            worksheet = workbook.Worksheets[0];
+            workbook = excel.Workbooks.Add(XlWBATemplate.xlWBATWorksheet);
+            worksheet = (Worksheet)workbook.Worksheets[1];
+
+            worksheet.Name = "RandomExcelFile";
 
             Range cellRange = worksheet.Range["A1:D1"];
             string[] strings = new[] {"test1", "testDwa", "testyTrzy","to powinno być cztery"};
@@ -32,7 +34,6 @@ namespace Random_Excel_File
             workbook.SaveAs("RandomExcelFile");
             workbook.Close();
 
-            Process.Start("RandomExcelFIle");
         }
     }
 }
