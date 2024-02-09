@@ -41,13 +41,25 @@ namespace Random_Excel_File
             worksheet.Name = "RandomExcelFile";
 
             //Setting range for cells to fill
-            Range headlineCellRange = worksheet.Range["A1:F1"];
+            Range headlineCellRange = worksheet.Range["A1", "F1"];
             //Array with column headlines
             string[] headlines = new[] {"Name", "Surname", "ID", "Amount", "Cost", "Unit price"};
 
             //Filling cells with values from array and setting font to bold to show that those are headlines
-            headlineCellRange.set_Value(XlRangeValueDataType.xlRangeValueDefault, headlines);
-            headlineCellRange.Style.Font.Bold = true;
+            headlineCellRange.Font.Bold = true;
+            headlineCellRange.Value = headlines;
+           
+
+
+            Range namesCellRange = worksheet.Range["A2","A20"];
+            string[,] names = new string[19, 1];
+            for(int i = 0; i < 19; i++)
+            {
+                names[i, 0] = "Name " + i;
+                Console.WriteLine(names[i, 0]);
+                
+            }            
+            namesCellRange.Value = names;
 
             //Creating path for folder, saving and closing app
             string excelFilePath = Path.Combine(folderPath, "RandomExcelFile.xlsx");
